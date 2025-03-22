@@ -1,0 +1,16 @@
+
+#game-canvas {
+    min-width: 300px;
+    min-height: 300px;
+    /*image-rendering: pixelated;
+    image-rendering: crisp-edges;*/
+}
+
+#img-content {
+    display: none;
+    background-color: rgb(96, 157, 159);
+}
+
+#current-atom {
+    max-width: 48px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style.css">
+    <title>Atomic Rush</title>
+</head>
+<body>
+    <h2>Atomic Rush</h2>
+    <div id="content">
+        <h3>Start game with:</h3>
+        <ul>
+            <li><button id="small-start-btn">Small Field</button></li>
+            <li><button id="medium-start-btn">Medium Field</button></li>
+            <li><button id="huge-start-btn">Huge Field</button></li>
+        </ul>
+        <h3>Description</h3>
+        <p>Your goal is to fill the right bar with molecules. Molecule can be created by combining atoms and fulfilling atoms connections.</p>
+        <p>Here is the list of all available atoms and their connections count:</p>
+        <ul>
+            <li>H atom should have 1 connection.</li>
+            <li>O atom should have 2 connections.</li>
+            <li>N atom should have 3 connections.</li>
+            <li>C atom should have 4 connections.</li>
+        </ul>
+        <p>Good luck!</p>
+    </div>
+    <div id="game-content">
+        <div>
+            <p>Current atom:</p>
+            <img id="current-atom" src="" alt="current-atom"/>
+        </div>
+        <canvas id="game-canvas"></canvas>
+        <div></div>
+        <button id="reset-btn">Restart</button>
+        <button id="home-btn">Home</button>
+    </div>
+    <script src="./src/script.js"></script>
+</body>
+</html>
