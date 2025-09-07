@@ -116,7 +116,7 @@ class Game {
     static bar_width: number = 64;
     static bar_color: string = "rgb(0, 231, 131)";
     static imgs: Map<string, HTMLImageElement> = Game.load_images();
-    static debug: boolean = false;
+    static debug: boolean = true;
 
     molecules: Array<Molecule> = [];
     game_ended: boolean = false;
