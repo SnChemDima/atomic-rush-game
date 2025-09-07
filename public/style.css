@@ -1,9 +1,21 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+    image-rendering: pixelated;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+}
 
 #game-canvas {
     min-width: 300px;
     min-height: 300px;
-    /*image-rendering: pixelated;
-    image-rendering: crisp-edges;*/
+    image-rendering: pixelated;
 }
 
 #img-content {
